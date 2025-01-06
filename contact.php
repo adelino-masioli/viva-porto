@@ -46,7 +46,7 @@ include_once 'includes/header.php';
                     
                     <h5 class="mt-4">Office Hours</h5>
                     <p class="card-text">
-                        Monday - Friday: 9:00 AM - 6:00 PM<br>
+                        Monday - Friday: 9:00 AM - 7:00 PM<br>
                         Saturday: 10:00 AM - 2:00 PM<br>
                         Sunday: Closed
                     </p>
