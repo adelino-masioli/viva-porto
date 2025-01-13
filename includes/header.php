@@ -29,12 +29,16 @@ require_once __DIR__ . '/UrlHelper.php';
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link <?php echo UrlHelper::isCurrentUrl('') ? 'active' : ''; ?>" 
-                           href="<?php echo UrlHelper::getUrl(); ?>">Home</a>
+                        <a class="nav-link <?php echo UrlHelper::isCurrentUrl('index') ? 'active' : ''; ?>" 
+                           href="<?php echo UrlHelper::getUrl('index'); ?>">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link <?php echo UrlHelper::isCurrentUrl('gallery') ? 'active' : ''; ?>" 
                            href="<?php echo UrlHelper::getUrl('gallery'); ?>">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link <?php echo UrlHelper::isCurrentUrl('aboutus') ? 'active' : ''; ?>" 
+                           href="<?php echo UrlHelper::getUrl('aboutus'); ?>">About us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link <?php echo UrlHelper::isCurrentUrl('map') ? 'active' : ''; ?>" 

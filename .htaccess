@@ -1,6 +1,6 @@
 Options +FollowSymLinks
 RewriteEngine On
-RewriteBase /
+RewriteBase /vivaporto/
 
 # Allow access to all PHP files
 <Files *.php>

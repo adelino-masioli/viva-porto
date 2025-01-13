@@ -1,5 +1,4 @@
 <?php
-session_start();
 $url = require_once 'config/config.php';
 include_once 'includes/header.php';
 require_once 'config/Database.php';

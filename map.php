@@ -1,5 +1,4 @@
 <?php
-session_start();
 include_once 'includes/header.php';
 require_once 'config/Database.php';
 require_once 'models/Destination.php';

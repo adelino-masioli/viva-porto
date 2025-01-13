@@ -1,6 +1,6 @@
 <?php
 class UrlHelper {
-    private static $baseUrl = 'https://vivaporto.adelinomasioli.com';
+    private static $baseUrl = 'http://localhost/vivaporto';
 
     public static function getBaseUrl() {
         return self::$baseUrl;
