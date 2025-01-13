@@ -48,6 +48,11 @@ require_once __DIR__ . '/UrlHelper.php';
                         <a class="nav-link <?php echo UrlHelper::isCurrentUrl('contact') ? 'active' : ''; ?>" 
                            href="<?php echo UrlHelper::getUrl('contact'); ?>">Contact</a>
                     </li>
+                    <!-- Added About Us page link -->
+                    <li class="nav-item">
+                        <a class="nav-link <?php echo UrlHelper::isCurrentUrl('aboutus') ? 'active' : ''; ?>" 
+                           href="<?php echo UrlHelper::getUrl('aboutus'); ?>">About Us</a>
+                    </li>
                     <?php if(isset($_SESSION['is_admin'])): ?>
                         <li class="nav-item">
                             <a class="nav-link <?php echo strpos(UrlHelper::getCurrentUrl(), '/admin') !== false ? 'active' : ''; ?>" 
