@@ -27,23 +27,23 @@ include_once 'includes/header.php';
             <h2 class="text-center mb-4">Meet Our Team</h2>
             <div class="row">
                 <div class="col-12 col-md-3 mb-4 text-center">
-                    <img src="assets/images/tm01.png" alt="Team Member 1" class="img-fluid rounded-circle mb-2" style="width: 100px; height: 100px;">
-                    <h5>John Doe</h5>
+                    <img src="./assets/images/markers/tm-04.jpg" alt="Team Member 1" class="img-fluid rounded-circle mb-2" style="width: 100px; height: 100px;">
+                    <h5>Adalino Masioli</h5>
                     <p>CEO & Founder</p>
                 </div>
                 <div class="col-12 col-md-3 mb-4 text-center">
-                    <img src="assets/images/tm-2.jpg" alt="Team Member 2" class="img-fluid rounded-circle mb-2" style="width: 100px; height: 100px;">
-                    <h5>Jane Smith</h5>
+                    <img src="./assets/images/markers/tm01.png" alt="Team Member 2" class="img-fluid rounded-circle mb-2" style="width: 100px; height: 100px;">
+                    <h5>Dharmik Savani</h5>
                     <p>Marketing Head</p>
                 </div>
                 <div class="col-12 col-md-3 mb-4 text-center">
-                    <img src="assets/images/team3.jpg" alt="Team Member 3" class="img-fluid rounded-circle mb-2" style="width: 100px; height: 100px;">
-                    <h5>Robert Johnson</h5>
+                    <img src="./assets/images/markers/tm-02.jpg" alt="Team Member 3" class="img-fluid rounded-circle mb-2" style="width: 100px; height: 100px;">
+                    <h5>Luis Alves</h5>
                     <p>Lead Developer</p>
                 </div>
                 <div class="col-12 col-md-3 mb-4 text-center">
-                    <img src="assets/images/team4.jpg" alt="Team Member 4" class="img-fluid rounded-circle mb-2" style="width: 100px; height: 100px;">
-                    <h5>Emily Davis</h5>
+                    <img src="./assets/images/markers/tm-03.jpg" alt="Team Member 4" class="img-fluid rounded-circle mb-2" style="width: 100px; height: 100px;">
+                    <h5>Sushmit Karmaker</h5>
                     <p>Customer Support</p>
                 </div>
             </div>
