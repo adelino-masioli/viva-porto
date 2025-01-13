@@ -55,7 +55,7 @@ include_once 'includes/header.php';
         <div class="container">
             <h2 class="text-center mb-4">Our Mission</h2>
             <p class="text-center">
-                Our mission is to inspire and empower people to explore the world. We strive to make travel accessible, enjoyable, and meaningful by connecting people with destinations that resonate with their interests and passions.
+                Our mission is to inspire and empower people to explore the country. We strive to make travel accessible, enjoyable, and meaningful by connecting people with destinations that resonate with their interests and passions.
             </p>
             <div class="row mt-4">
                 <div class="col-md-4 text-center">
